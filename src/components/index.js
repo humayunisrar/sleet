@@ -5,6 +5,7 @@ import Business from "./Business";
 import Services from "./Services";
 import Stats from "./Stats";
 import Hero from "./Hero";
+import Why from "./Why";
 
 export {
 
@@ -14,5 +15,6 @@ export {
   Business,
   Services,
   Stats,
+  Why,
   Hero,
 };
