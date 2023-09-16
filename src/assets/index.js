@@ -3,7 +3,7 @@ import truck from "./truck.svg";
 import based from "./based.svg";
 import equipment from "./equipment.svg";
 import digital from "./digital.svg";;
-import hero from "./hero.svg";
+import hero from "./hero.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import quality from "./quality.svg";

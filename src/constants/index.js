@@ -38,25 +38,31 @@ export const navLinks = [
     {
       id: "stats-3",
       icon: people2,
-      title: "Dedicated <br/> Employees",
+      title: "Dedicated Employees",
       value: "15",
     },
   ];
   export const missions = [
     {
-      id: "misson",
-      title: "Misson",
+      id: "mission",
+      title: "Mission",
+      content:
+        "Our mission is to provide a technologically advanced system of B-to-B delivery solutions with added quality and augmented services to enhance and guarantee the shelf life of your temperature-sensitive products.",
     },
     {
       id: "vision",
       title: "Vision",
+      content:
+        "Our vision is to be a global leader in temperature-controlled logistics, providing innovative solutions that exceed customer expectations and contribute to a sustainable and efficient supply chain.",
     },
     {
       id: "value",
       title: "Value",
+      content:
+        "Our core values include customer-centricity, integrity, innovation, sustainability, and excellence. These values guide us in delivering exceptional services and driving continuous improvement.",
     },
-    
   ];
+  
   export const features = [
     {
       id: "feature-1",

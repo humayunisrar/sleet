@@ -12,9 +12,10 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
         magenta:"#00344B",
         cyan:"#40BFB4",
+        highlight: "#00C8BC",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
     screens: {

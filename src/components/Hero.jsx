@@ -4,28 +4,26 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-       
+    <section id="home" className={`flex md:flex-row flex-col py-20`}>
 
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-normal ss:text-[72px] text-[58px] text-white ss:leading-[100.8px] leading-[69.6px]">
-           End-To-End Cold Store <br className="sm:block hidden" />{" "}
+      <div className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 w-full gap-2`}>
+
+          <h1 className="font-inter font-medium ss:text-[68px] text-[58px] text-white ss:leading-[100.8px] leading-[56px]">
+            End-To-End Cold Store <br className="sm:block hidden" />{" "}
             <span>Delivery Solution</span>{" "}
           </h1>
-          
-        </div>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-       Sleet is the pioneering cold store logistics solution to be Saudi Arabia based 
-        <br/>that changes the way that logistics operates by relentless innovation and
-        <br/>digitalized approaches
-        </p>
-        <div className="ss:flex hidden md:mr-4 mr-0 mt-5">
-            <Button />
+          <p className={`${styles.paragraph} w-full mt-5`}>
+            Sleet is the pioneering cold store logistics solution to be Saudi Arabia based
+            <br />that changes the way that logistics operates by relentless innovation and
+            <br />digitalized approaches
+          </p>
+          <div className="ss:flex hidden md:mr-4 mr-0 mt-10">
+            <Button text="Get in Touch" styles="text-primary bg-white"/>
           </div>
+        
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+      <div className={`flex-auto flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={hero} alt="hero" className="w-[100%] h-[100%] relative z-[5]" />
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
