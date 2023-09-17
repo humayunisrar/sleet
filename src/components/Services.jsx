@@ -9,7 +9,8 @@ const Services = ({ icon, title, content, index }) => (
     <div className="justify-start text-left items-start">
         <h2 className={`text-white text-left justify-start font-normal text-[50px] leading-[60px] mt-6  mb-[70px]`} > 
           Our Services
-          <span className="border-highlight border-r-[10px] ml-5 rounded-[55px] leading-5"> </span>
+          <span className="border-highlight border-l-[10px] ml-5 rounded-[55px] leading-5"></span>
+          <span className={`text-white text-left justify-start font-normal text-[50px] leading-[60px] mt-6 ml-5 mb-[70px]`}>We are dedicated to providing smooth and facilating services</span>
         </h2>
       </div> 
       <div className="flex flex-row flex-wrap">
