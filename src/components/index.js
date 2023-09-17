@@ -6,6 +6,7 @@ import Services from "./Services";
 import Stats from "./Stats";
 import Hero from "./Hero";
 import Why from "./Why";
+import Footer from "./Footer";
 
 export {
 
@@ -17,4 +18,5 @@ export {
   Stats,
   Why,
   Hero,
+  Footer,
 };

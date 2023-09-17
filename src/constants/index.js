@@ -1,4 +1,4 @@
-import { people1, people2, based, digital,equipment,aservice,eservice,dservice,manage,control,data ,quality, truck} from "../assets";
+import { people1, people2, based, digital, facebook,instagram,linkedin,equipment,aservice,eservice,dservice,manage,control,data ,quality, truck} from "../assets";
 
 export const navLinks = [
     {
@@ -136,4 +136,25 @@ export const navLinks = [
       content:
         "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
     },
+  ];
+
+  export const socialMedia = [
+    
+    {
+      id: "social",
+      icon: linkedin,
+      link: "https://www.linkedin.com/",
+    },
+    {
+      id: "social",
+      icon: instagram,
+      link: "https://www.instagram.com/",
+    },
+    {
+      id: "social",
+      icon: facebook,
+      link: "https://www.facebook.com/",
+    },
+
+    
   ];

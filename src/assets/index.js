@@ -15,6 +15,10 @@ import eservice from "./eservice.svg";
 import dservice from "./dservice.svg";
 import manage from "./manage.svg";
 import aservice from "./aservice.svg";
+import facebook from "./facebook.svg";
+import instagram from "./instagram.svg";
+import linkedin from "./linkedin.svg";
+
 export {
   logo,
   truck,
@@ -32,6 +36,9 @@ export {
   eservice,
   dservice,
   manage,
+  facebook,
+  instagram,
+  linkedin,
   aservice,
 
 };
