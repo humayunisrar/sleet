@@ -18,6 +18,7 @@ import aservice from "./aservice.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import contact from "./contact.webp"
 
 export {
   logo,
@@ -40,5 +41,5 @@ export {
   instagram,
   linkedin,
   aservice,
-
+  contact,
 };

@@ -1,17 +1,18 @@
 import styles from "./style";
-import { Navbar, Hero, Why, About, Stats, Mission, Services, Footer } from "./components";
+import { Navbar, Hero, Why, About, Stats, Mission, Services, Footer, Contact } from "./components";
 
 const App = () => (
   <div className=" w-full overflow-hidden">
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-      <Navbar />
+        <Navbar />
       </div>
     </div>
 
     <div className={`bg-primary flex justify-center items-center h-[80vh]`}>
       <div className={`${styles.boxWidth}`}>
-      <Hero />
+        <Hero />
       </div>
     </div>
 
@@ -21,16 +22,28 @@ const App = () => (
         <Stats />
         <Mission />
         <Why />
-        
-      </div>   
+      </div>
     </div>
+
     <div className={`bg-primary flex justify-center items-center`}>
       <div className={`${styles.boxWidth}`}>
-      <Services />
-      <Footer/>
+        <Services />
       </div>
-     
     </div>
+
+    <div className={`flex justify-center items-center`}>
+      <div className={`${styles.boxWidth}`}>
+        <Contact />
+      </div>
+    </div>
+
+    <div className={`bg-primary flex justify-center items-center rounded-tl-3xl rounded-tr-3xl`}>
+  <div className={`${styles.boxWidth}`}>
+    <Footer />
+  </div>
+</div>
+
+
   </div>
 );
 

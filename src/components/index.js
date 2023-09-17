@@ -7,6 +7,7 @@ import Stats from "./Stats";
 import Hero from "./Hero";
 import Why from "./Why";
 import Footer from "./Footer";
+import Contact from "./Contact"
 
 export {
 
@@ -19,4 +20,5 @@ export {
   Why,
   Hero,
   Footer,
+  Contact,
 };
