@@ -21,9 +21,12 @@ const App = () => (
         <Stats />
         <Mission />
         <Why />
-        <Services />
+      </div>   
+    </div>
+    <div className={`bg-primary flex justify-center items-center`}>
+      <div className={`${styles.boxWidth}`}>
+      <Services />
       </div>
-      
     </div>
   </div>
 );
