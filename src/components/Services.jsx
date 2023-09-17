@@ -6,12 +6,13 @@ const Services = ({ icon, title, content, index }) => (
   <section
     className={`${styles.flexCenter} w-full flex-row bg-magenta flex-wrap mt-[100px] sm:mb-20 mb-6`}
   >
-    <div className="flex text-left justify-start items-start">
-        <h2 className={`text-white text-center font-normal text-[50px] leading-[60px] mt-6  mb-[700px]`} > 
+    <div className="justify-start text-left items-start">
+        <h2 className={`text-white text-left justify-start font-normal text-[50px] leading-[60px] mt-6  mb-[70px]`} > 
           Our Services
-          <span className="border-highlight border-r-[10px] ml-5 rounded-1 "> </span>
+          <span className="border-highlight border-r-[10px] ml-5 rounded-[55px] leading-5"> </span>
         </h2>
       </div> 
+      <div className="flex flex-row flex-wrap">
     {services.map((service) => (
       <div
         key={service.id}
@@ -36,7 +37,7 @@ const Services = ({ icon, title, content, index }) => (
           </p>
         </div>
       </div>
-    ))}
+    ))}</div>
   </section>
 );
 
