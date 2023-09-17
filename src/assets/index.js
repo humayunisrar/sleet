@@ -9,6 +9,12 @@ import close from "./close.svg";
 import quality from "./quality.svg";
 import people1 from "./people1.svg";
 import people2 from "./people2.svg";
+import control from "./control.svg";
+import data from "./data.svg";
+import eservice from "./eservice.svg";
+import dservice from "./dservice.svg";
+import manage from "./manage.svg";
+import aservice from "./aservice.svg";
 export {
   logo,
   truck,
@@ -21,4 +27,11 @@ export {
   menu,
   people1,
   people2,
+  control,
+  data,
+  eservice,
+  dservice,
+  manage,
+  aservice,
+
 };

@@ -13,13 +13,12 @@ const Mission = () => {
 
   return (
     <section
-      className={`${styles.flexCenter} ${styles.paddingY} flex-col flex-wrap mt-[100px] sm:mb-20 mb-6 gap-[70px]`}
+      className={`${styles.flexCenter} ${styles.paddingY} flex-col flex-wrap mt-[100px] sm:mb-20 gap-[70px]`}
     >
       <div className="flex text-center justify-center items-center">
         <h2 className={`text-magenta text-center font-normal text-[50px] w-4/5`} >
           Our innovations are what aid us to provide you with a better and superior service
         </h2>
-
       </div>
 
       <div className="flex flex-col  justify-center items-center">

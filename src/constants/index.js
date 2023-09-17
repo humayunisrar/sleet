@@ -1,4 +1,4 @@
-import { people1, people2, based, digital,equipment ,quality, truck} from "../assets";
+import { people1, people2, based, digital,equipment,aservice,eservice,dservice,manage,control,data ,quality, truck} from "../assets";
 
 export const navLinks = [
     {
@@ -69,27 +69,71 @@ export const navLinks = [
       icon: quality,
       title: "Superior Quality",
       content:
-        "The best credit cards offer some tantalizing combinations of promotions and prizes",
+        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
     },
     {
       id: "feature-2",
       icon: based,
       title: "Saudi Arabia-Based",
       content:
-        "We take proactive steps make sure your information and transactions are secure.",
+        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
     },
     {
       id: "feature-3",
       icon: digital,
       title: "Digitalization",
       content:
-        "A balance transfer credit card can save you a lot of money in interest charges.",
+        "Record keeping is a necessary piece of information that needs constant protection.We digitalize the record keeping process and that allows us to keep your privacy protected and maintained.",
     },
     {
       id: "feature-4",
       icon: equipment,
       title: "Accurate Equipment",
       content:
-        "A balance transfer credit card can save you a lot of money in interest charges.",
+        "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
+    },
+  ];
+  export const services = [
+    {
+      id: "service-1",
+      icon: eservice,
+      title: "Superior Quality",
+      content:
+        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
+    },
+    {
+      id: "service-2",
+      icon: data,
+      title: "Saudi Arabia-Based",
+      content:
+        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
+    },
+    {
+      id: "service-3",
+      icon: aservice,
+      title: "Digitalization",
+      content:
+        "Record keeping is a necessary piece of information that needs constant protection.We digitalize the record keeping process and that allows us to keep your privacy protected and maintained.",
+    },
+    {
+      id: "service-4",
+      icon: dservice,
+      title: "Accurate Equipment",
+      content:
+        "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
+    },
+    {
+      id: "service-5",
+      icon: manage,
+      title: "Accurate Equipment",
+      content:
+        "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
+    },
+    {
+      id: "service-6",
+      icon: control,
+      title: "Accurate Equipment",
+      content:
+        "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
     },
   ];
