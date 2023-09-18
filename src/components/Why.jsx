@@ -4,7 +4,7 @@ import { features } from "../constants";
 
 const Why = ({ icon, title, content, index }) => (
   <section
-    className={`${styles.flexCenter} flex-row flex-wrap mt-[60px] sm:mb-20 mb-6`}
+    className={`${styles.flexCenter} ${styles.paddingY} flex-row flex-wrap`}
   >
     <div className="flex text-center justify-center items-center">
         <h2 className={`text-magenta text-center font-normal text-[50px] leading-[60px] mb-[70px]`} >
@@ -15,9 +15,9 @@ const Why = ({ icon, title, content, index }) => (
     {features.map((feature) => (
       <div
         key={feature.id}
-        className={`flex justify-start items-start w-[46%] flex-col m-3 gap-5`}
+        className={`flex justify-start items-start p-5 w-[46%] flex-col m-3 gap-5`}
       >
-        <div className="flex flex-row items-end gap-2">
+        <div className="flex flex-row items-end gap-5">
           <img
             src={feature.icon}
             alt="icons"
@@ -31,7 +31,7 @@ const Why = ({ icon, title, content, index }) => (
         <div
           className={`flex-col flex font-inter flex-wrap`}
         >
-          <p className="font-normal xs:text-[20.45px] justify-center align-middle text-magenta text-[18px] xs:leading-[30px] leading-[21.6px] mt-0 ml-1">
+          <p className="font-normal xs:text-[20.45px] justify-center align-middle text-magenta text-[18px] xs:leading-[30px] leading-[21.6px] mb-5 mt-0 ml-1">
             {feature.content}
           </p>
         </div>
