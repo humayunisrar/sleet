@@ -3,11 +3,11 @@ import { hero } from "../assets";
 import Button from "./Button";
 
 const Hero = () => (
-  <section id="home" className={`flex md:flex-row flex-col py-20`}>
+  <section id="home" className={`flex md:flex-row flex-col py-20 xs:pt-0 pt-60`}>
 
     <div className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 w-full gap-2`}>
 
-      <h1 className="font-inter font-medium ss:text-[68px] text-[58px] text-white ss:leading-[100.8px] leading-[56px]">
+      <h1 className={`${styles.heading1} font-inter font-medium ss:text-[68px] text-[58px] text-white ss:leading-[100.8px] leading-[56px]`}>
         End-To-End Cold Store <br className="sm:block hidden" />{" "}
         <span>Delivery Solution</span>{" "}
       </h1>

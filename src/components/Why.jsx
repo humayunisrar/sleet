@@ -7,15 +7,15 @@ const Why = ({ icon, title, content, index }) => (
     className={`${styles.flexCenter} ${styles.paddingY} flex-row flex-wrap`}
   >
     <div className="flex text-center justify-center items-center">
-        <h2 className={`text-magenta text-center font-normal text-[50px] leading-[60px] mb-[70px]`} >
-          How does our cold chain stand out?
-        </h2>
-      </div> 
+      <h2 className={`${styles.heading2}`} >
+        How does our cold chain stand out?
+      </h2>
+    </div>
 
     {features.map((feature) => (
       <div
         key={feature.id}
-        className={`flex justify-start items-start p-5 w-[46%] flex-col m-3 gap-5`}
+        className={`flex justify-start items-start xs:p-5 p-3 xs:w-[46%] w-full flex-col xs:m-3 m-0 gap-5`}
       >
         <div className="flex flex-row items-end gap-5">
           <img

@@ -19,6 +19,8 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import contact from "./contact.webp"
+import phone from "./phone.svg";
+import language from "./language.svg";
 
 export {
   logo,
@@ -42,4 +44,6 @@ export {
   linkedin,
   aservice,
   contact,
+  phone,
+  language,
 };

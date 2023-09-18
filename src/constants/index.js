@@ -69,14 +69,14 @@ export const navLinks = [
       icon: quality,
       title: "Superior Quality",
       content:
-        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
+        "Your deliveries are maintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
     },
     {
       id: "feature-2",
       icon: based,
       title: "Saudi Arabia-Based",
       content:
-        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
+        "Your deliveries are maintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
     },
     {
       id: "feature-3",
@@ -97,61 +97,61 @@ export const navLinks = [
     {
       id: "service-1",
       icon: eservice,
-      title: "Superior Quality",
+      title: "E-Logistics Services",
       content:
-        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
+        "We have digitized our platform and we ideate that logistics are available at your device, a fingertip away.",
     },
     {
       id: "service-2",
       icon: data,
-      title: "Saudi Arabia-Based",
+      title: "Delivery Statistics & Data Analytics",
       content:
-        "Your deliveries aremaintained and supervised by numerous lines of workers. The supervisor personally overlooks your packaging. The managers strictly supervise the maintainence. Lastly, the drivers are trained to safeguard till the end of delivery",
+        "Here, we provide metrics for accurate analytics and data processing.",
     },
     {
       id: "service-3",
       icon: aservice,
-      title: "Digitalization",
+      title: "Augmented Services",
       content:
-        "Record keeping is a necessary piece of information that needs constant protection.We digitalize the record keeping process and that allows us to keep your privacy protected and maintained.",
+        "These include Customer Care and Flexible Packages to optimize your experience with us.",
     },
     {
       id: "service-4",
       icon: dservice,
-      title: "Accurate Equipment",
+      title: "Door-to-door Services",
       content:
-        "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
+        "With end to end services, your package is picked from your dropped location to your accurate current location without the hassle of security issues or errors.",
     },
     {
       id: "service-5",
       icon: manage,
-      title: "Accurate Equipment",
+      title: "Self-managed Portal & Mobile Application",
       content:
-        "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
+        " This aids you to access Sleet in the comfort of your own surroundings without the hassle of travelling.",
     },
     {
       id: "service-6",
       icon: control,
-      title: "Accurate Equipment",
+      title: "Quality control checklist",
       content:
-        "We have the accurate equipment to secure your delivery throughout the time that it travels and while you live track its live location.",
+        "To assure you the integrity of your products that are temperature sensitive, our Quality control checklist is maintained personally by the supervisor to make sure that it is safe and away from perishing.",
     },
   ];
 
   export const socialMedia = [
     
     {
-      id: "social",
+      id: "social-1",
       icon: linkedin,
       link: "https://www.linkedin.com/",
     },
     {
-      id: "social",
+      id: "social-2",
       icon: instagram,
       link: "https://www.instagram.com/",
     },
     {
-      id: "social",
+      id: "social-3",
       icon: facebook,
       link: "https://www.facebook.com/",
     },

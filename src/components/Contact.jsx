@@ -28,19 +28,19 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className={`flex flex-col justify-center items-center gap-10 py-20`}>
+        <section id="contact" className={`${styles.paddingY} flex flex-col justify-center items-center gap-20`}>
             <div className='flex flex-col gap-2'>
-                <h2 className='font-normal uppercase text-[50px] leading-[60px] text-magenta'>Have some questions?</h2>
+                <h2 className={`${styles.header} text-center`}>Have some questions?</h2>
                 <p className='text-magneta text-center text-[20px]'>Don't hesitate! We're Always here to guide you.</p>
             </div>
 
-            <div className='flex flex-row'>
-                <div className={`flex ${styles.flexCenter} md:my-0 my-10`}>
-                    <img src={contact} alt="hero" className="w-full h-min-[500px] h-full z-[5] object-contain" />
+            <div className='flex flex-1 xs:flex-row flex-col gap-10'>
+                <div className={`${styles.flexCenter} md:my-0 my-10 xs:h-[60vh] h-auto xs:w-2/3 w-full`}>
+                    <img src={contact} alt="hero" className="xs:w-[90vh] w-full h-full object-contain" />
                 </div>
 
-                <div className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 w-full gap-2`}>
-                    <form onSubmit={handleSubmit}>
+                <div className={`${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 xs:w-1/3 w-full gap-2`}>
+                    <form className='w-full' onSubmit={handleSubmit}>
                         <div className="mb-4">
                             <label htmlFor="name" className="text-magenta text-lg mb-2">Your Name</label>
                             <input
@@ -89,10 +89,10 @@ const Contact = () => {
                             />
                         </div>
                         <button type="submit" className="bg-magenta w-full text-white rounded-full py-2 px-4 hover:bg-[#00C8BC]">
-                            Submit
+                            SEND
                         </button>
                     </form>
-                    
+
                 </div>
             </div>
         </section>

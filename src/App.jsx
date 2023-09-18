@@ -10,7 +10,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary flex justify-center items-center h-[80vh]`}>
+    <div className={`bg-primary flex justify-center items-center xs:h-[80vh] h-screen`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
@@ -32,9 +32,9 @@ const App = () => (
     </div>
 
     <div className={`flex justify-center items-center`}>
-      <div className={`${styles.boxWidth}`}>
+    
         <Contact />
-      </div>
+     
     </div>
 
     <div className={`bg-primary flex justify-center items-center rounded-tl-3xl rounded-tr-3xl`}>

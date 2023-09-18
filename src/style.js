@@ -1,15 +1,17 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading2: "font-inter font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-    paragraph: "font-inter font-normal text-white text-[18px] leading-[30.8px]",
-    paragraph2: "font-inter font-normal text-dimWhite text-[30px] leading-[32.8px]",
+    heading1: "font-inter font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]",
+    heading2: "font-inter font-normal xs:text-[50px] text-[38px] text-cyan xs:leading-[60px] leading-[48px]",
+    header: "font-inter font-normal text-magenta uppercase xs:text-[40px] text-[36px]",
+    paragraph: "font-inter font-normal text-white xs:text-[18px] text-[16px] leading-[30.8px]",
+    paragraph2: "font-inter font-normal text-dimWhite xs:text-[30px] text-[24px] xs:leading-[32.8px] leading-[28px]",
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
   
-    paddingX: "sm:px-16 px-6",
-    paddingY: "sm:py-16 py-6",
+    paddingX: "sm:px-16 px-8",
+    paddingY: "sm:py-16 py-8",
     padding: "sm:px-16 px-6 sm:py-12 py-4",
   
     marginX: "sm:mx-16 mx-6",

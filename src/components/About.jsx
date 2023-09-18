@@ -4,16 +4,18 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section id="about" className={layout.section}>
+    <section id="about" className={`${layout.section} ${styles.paddingY}`}>
       <div className={`text-center items-center ${layout.sectionInfo}`}>
-        <h2 className={`text-magenta text-center ${styles.heading2}`}>
-          <span className="text-magenta uppercase text-[40px] font-normal">What is Sleet?</span>{" "}
-          <br className="sm:block hidden" />
-          <span className="text-cyan text-[50px] font-normal">
+       
+       <div className="flex flex-col items-center gap-3">
+       <h2 className={`text-magenta text-center ${styles.heading2}`}>
+        </h2>
+          <span className={`${styles.header}`}>What is Sleet?</span>
+          <span className={`${styles.heading2}`}>
             {" "}
             A Cold Storage Delivery Solution <br /> Near You!
           </span>
-        </h2>
+        </div>
         <p
           className={`${styles.paragraph2} max-w-[750px] text-center mt-5 text-magenta`}
         >
