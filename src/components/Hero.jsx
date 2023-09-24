@@ -14,7 +14,7 @@ const Hero = () => (
       <p className={`${styles.paragraph} w-full mt-5`}>
         Sleet is the pioneering cold store logistics solution to be Saudi Arabia based
         <br />that changes the way that logistics operates by relentless innovation and
-        <br />digitalized approaches
+        <br />digitalized approaches.
       </p>
       <div className="ss:flex hidden md:mr-4 mr-0 mt-10">
         <Button text="Get in Touch" styles="text-primary bg-white" />
