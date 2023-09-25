@@ -16,7 +16,7 @@ const Mission = () => {
       className={`${styles.flexCenter} ${styles.paddingY} flex-col flex-wrap gap-10`}
     >
       <div className="flex text-center justify-center items-center">
-        <h2 className={`${styles.heading2} text-magenta xs:w-4/5 w-full`} >
+        <h2 className={`${styles.heading2} text-magenta text-center xs:w-4/5 w-full`} >
           Our innovations are what aid us to provide you with a better and superior service
         </h2>
       </div>
@@ -37,7 +37,7 @@ const Mission = () => {
           ))}
         </div>
 
-        <div className={`${styles.flexCenter} ${styles.marginY} xs:p-6 p-3 xs:w-11/12 w-full sm:flex-row flex-col bg-magenta rounded-[20px] box-shadow`}>
+        <div className={`${styles.flexCenter} ${styles.marginY} xs:p-6 p-3 xs:w-10/12 w-full sm:flex-row flex-col bg-magenta rounded-[20px] box-shadow`}>
           <p className={`${styles.flexCenter} font-inter text-center font-normal xs:text-[35px] text-[24px] text-white`}>
             {activeMission.content}
           </p>

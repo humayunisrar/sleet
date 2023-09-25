@@ -3,7 +3,7 @@ import { hero } from "../assets";
 import Button from "./Button";
 
 const Hero = () => (
-  <section id="home" className={`flex md:flex-row flex-col py-20 xs:pt-0 pt-60`}>
+  <section id="home" className={`flex md:flex-row flex-col py-10`}>
 
     <div className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 w-full gap-2`}>
 
@@ -23,7 +23,7 @@ const Hero = () => (
     </div>
 
     <div className={`flex-auto flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={hero} alt="hero" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={hero} alt="hero" className="w-full h-full relative z-[5]" />
     </div>
     <div className={`ss:hidden ${styles.flexCenter}`}>
       <Button />

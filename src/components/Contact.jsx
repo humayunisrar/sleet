@@ -39,7 +39,7 @@ const Contact = () => {
                     <img src={contact} alt="hero" className="xs:w-[90vh] w-full h-full object-contain" />
                 </div>
 
-                <div className={`${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 xs:w-1/3 w-full gap-2`}>
+                <div className={`${styles.flexStart} flex-col xl:px-0 sm:px-2 px-2 xs:w-1/3 w-full gap-2`}>
                     <form className='w-full' onSubmit={handleSubmit}>
                         <div className="mb-4">
                             <label htmlFor="name" className="text-magenta text-lg mb-2">Your Name</label>

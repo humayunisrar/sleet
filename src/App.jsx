@@ -10,13 +10,13 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary flex justify-center items-center xs:h-[80vh] h-screen`}>
+    <div className={`bg-primary flex justify-center items-center md:h-[80vh]  h-full`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} backnner`}>
       <div className={`${styles.boxWidth}`}>
         <About />
         <Stats />

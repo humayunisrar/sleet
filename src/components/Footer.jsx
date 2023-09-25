@@ -5,7 +5,7 @@ import { phone } from "../assets";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY}  bg-primary flex-col rounded-t-[50px]`}>
 
-    <div className="w-full flex justify-between items-center md:flex-row xs:gap-0 gap-5 flex-col">
+    <div className="w-full flex xs:px-10 px-2 justify-between items-center md:flex-row xs:gap-0 gap-5 flex-col">
       <div className="flex flex-col items-start justify-start xs:gap-2 gap-1">
         <div className="flex flex-row items-center justify-center">
           <img src={phone} alt="" />

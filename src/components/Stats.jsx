@@ -11,7 +11,7 @@ const Stats = () => (
       <h4 className="font-inter font-normal xs:text-[43px] text-cyan text-[43px] xs:leading-[53.16px] leading-[43.16px] text-[00CCBD]">
         {stat.value}
       </h4>
-      <p className={`font-inter font-normal xs:text-[30px] text-magenta text-[30px] text-center xs:leading-[40px] leading-[32px] ml-3 w-1/2`}>
+      <p className={`font-inter font-normal xs:text-[30px] text-magenta text-[30px] text-center xs:leading-[40px] leading-[32px] xs:ml-3 ml-0 xs:w-1/2 w-full`}>
         {stat.title}
       </p>
     </div>

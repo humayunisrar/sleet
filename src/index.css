@@ -137,4 +137,19 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+
+}
+
+.backnner{
+  background: url(/public/sleet-banner.webp);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+/* For screens below 480px */
+@media (max-width: 480px) {
+  .backnner {
+    background-size: auto;
+    background-position: center;
+  }
 }

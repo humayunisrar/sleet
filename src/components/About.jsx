@@ -6,10 +6,10 @@ const About = () => {
   return (
     <section id="about" className={`${layout.section} ${styles.paddingY}`}>
       <div className={`text-center items-center ${layout.sectionInfo}`}>
-       
-       <div className="flex flex-col items-center gap-3">
-       <h2 className={`text-magenta text-center ${styles.heading2}`}>
-        </h2>
+
+        <div className="flex flex-col items-center gap-3">
+          <h2 className={`text-magenta text-center ${styles.heading2}`}>
+          </h2>
           <span className={`${styles.header}`}>What is Sleet?</span>
           <span className={`${styles.heading2}`}>
             {" "}
@@ -25,7 +25,7 @@ const About = () => {
           modernization in terms of developing technology.
         </p>
         <div className="ss:flex hidden md:mr-4 mr-0 mt-[25px]">
-          <Button text="Read More" styles="text-white bg-primary"/>
+          <Button text="Read More" styles="text-white bg-primary" />
         </div>
       </div>
     </section>
