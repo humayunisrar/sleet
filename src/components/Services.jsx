@@ -6,7 +6,7 @@ const Services = ({ icon, title, content, index }) => (
   <section id="services"
     className={`${styles.paddingY} flex justify-start items-start w-full flex-row bg-magenta flex-wrap p-2 gap-12`}
   >
-    <div className="flex xs:flex-row flex-col pl-5 justify-start text-left items-center xs:gap-5 gap-0">
+    <div className="flex xs:flex-row flex-col xs:pl-5 pl-0 justify-start text-left items-center xs:gap-5 gap-0">
         <h2 className={`text-white text-left justify-start font-normal text-[50px] leading-[60px]`} > 
           Our Services
         </h2>

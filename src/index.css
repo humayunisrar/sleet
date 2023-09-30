@@ -141,7 +141,7 @@
 }
 
 .backnner{
-  background: url(/public/sleet-banner.webp);
+  background: url(/sleet-banner.webp);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -152,4 +152,14 @@
     background-size: auto;
     background-position: center;
   }
+  .main-banner{
+    background-size: cover;
+  }
 }
+
+.main-banner{
+  position: relative;
+  background: url(/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;}

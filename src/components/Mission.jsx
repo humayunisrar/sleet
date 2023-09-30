@@ -38,7 +38,7 @@ const Mission = () => {
         </div>
 
         <div className={`${styles.flexCenter} ${styles.marginY} xs:p-6 p-3 xs:w-10/12 w-full sm:flex-row flex-col bg-magenta rounded-[20px] box-shadow`}>
-          <p className={`${styles.flexCenter} font-inter text-center font-normal xs:text-[35px] text-[24px] text-white`}>
+          <p className={`${styles.flexCenter} font-inter text-center font-normal xs:text-[35px] text-[24px] xs:p-4 p-1 text-white`}>
             {activeMission.content}
           </p>
         </div>

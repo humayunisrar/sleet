@@ -1,22 +1,18 @@
 import styles from "./style";
-import { Navbar, Hero, Why, About, Stats, Mission, Services, Footer, Contact } from "./components";
+import { Navbar, Hero, Why, About, Stats, Mission, Services, Footer, Contact, ParticlesComp } from "./components";
 
 const App = () => (
   <div className=" w-full overflow-hidden">
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={` ${styles.paddingX} main-banner flex justify-center items-center md:h-screen h-full`}>
       <div className={`${styles.boxWidth}`}>
+        <ParticlesComp/>
         <Navbar />
-      </div>
-    </div>
-
-    <div className={`bg-primary flex justify-center items-center md:h-[80vh]  h-full`}>
-      <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter} backnner`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} backnner relative z-10`}>
       <div className={`${styles.boxWidth}`}>
         <About />
         <Stats />
@@ -25,23 +21,23 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary flex justify-center items-center`}>
+    <div className={`bg-primary flex justify-center items-center relative z-10`}>
       <div className={`${styles.boxWidth}`}>
         <Services />
       </div>
     </div>
 
-    <div className={`flex justify-center items-center`}>
-    
-        <Contact />
-     
+    <div className={`flex justify-center items-center relative z-10`}>
+
+      <Contact />
+
     </div>
 
-    <div className={`bg-primary flex justify-center items-center rounded-tl-3xl rounded-tr-3xl`}>
-  <div className={`${styles.boxWidth}`}>
-    <Footer />
-  </div>
-</div>
+    <div className={`bg-primary flex justify-center items-center rounded-tl-3xl rounded-tr-3xl relative z-10`}>
+      <div className={`${styles.boxWidth}`}>
+        <Footer />
+      </div>
+    </div>
 
 
   </div>

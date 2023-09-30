@@ -28,7 +28,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className={`${styles.paddingY} flex flex-col justify-center items-center gap-20`}>
+        <section id="contact" className={`${styles.paddingY} px-2 flex flex-col justify-center items-center gap-20`}>
             <div className='flex flex-col gap-2'>
                 <h2 className={`${styles.header} text-center`}>Have some questions?</h2>
                 <p className='text-magneta text-center text-[20px]'>Don't hesitate! We're Always here to guide you.</p>

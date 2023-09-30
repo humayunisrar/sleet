@@ -7,6 +7,7 @@ import Hero from "./Hero";
 import Why from "./Why";
 import Footer from "./Footer";
 import Contact from "./Contact"
+import ParticlesComp from "./ParticlesComp";
 
 export {
 
@@ -19,4 +20,5 @@ export {
   Hero,
   Footer,
   Contact,
+  ParticlesComp,
 };
