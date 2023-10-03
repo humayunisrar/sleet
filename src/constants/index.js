@@ -4,22 +4,27 @@ export const navLinks = [
     {
       id: "home",
       title: "Home",
+      url: "#",
     },
     {
       id: "about",
       title: "About",
+      url: "#about",
     },
     {
       id: "services",
       title: "Services",
+      url: "#services",
     },
     {
       id: "contact",
       title: "Contact",
+      url: "#contact",
     },
     {
       id: "login",
       title: "Login",
+      url: "https://admin.sleet-sa.com/",
     },
   ];
   export const stats = [
